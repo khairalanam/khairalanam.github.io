@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Motion</title>
+</head>
+
+<body>
+    <main class="main-section">
+        <header class="main-header">
+            <div class="main-logo">M</div>
+
+            <nav class="nav-bar">
+                <ul class="nav-bar-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-us-heading" target="_blank">About Us</a></li>
+                    <li><a href="https://www.notion.so/templates" target="_blank">Features</a></li>
+                    <li><a href="https://www.notion.so/pricing" target="_blank">Pricing</a></li>
+                    <li><a href="https://www.notion.so/contact-sales" target="_blank">Contact Us</a></li>
+                    <li><a href="#" id="sign-up-nav-tag" target="_blank">Sign Up</a></li>
+
+                    <li>
+                        <button id="toggle" onclick="dark_mode()">Switch Modes</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="bg-image-container">
+            <img id="bg-image" src="images\close-up-hand-taking-notes.jpg" alt="">
+            <h1 id="hero-title">All in one Note Taking App</h1>
+            <h3 id="hero-subtitle">Start your journey <br> of declutter and organization here with Motion</h3>
+        </div>
+
+    </main>
+
+    <section class="about-us-section">
+        <h1 id="about-us-heading">About Us</h1>
+
+        <h1 class="main-logo">M</h1>
+
+        <p>We are <b>Motion</b>, an all-in-one note taking app. Started in 2014, our main goal has always and will always be, to help students and employees in organizing their notes, ideas, plans, schemes, studies, data and so much more, in a very clear,
+            precise, efficient, and most importantly, in a very enjoying way.</p>
+
+        <button class="button">Learn More</button>
+    </section>
+
+    <section class="download-section">
+
+        <div id="overlay"></div>
+
+        <h1>Downloads</h1>
+
+        <ul class="download-buttons-list">
+            <li>
+                <button class="button-downloads">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                        <span>For Windows</span>
+                    </a>
+                </button>
+            </li>
+
+            <li>
+                <button class="button-downloads">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                        <span>For Mac</span>
+                    </a>
+                </button>
+            </li>
+
+            <li>
+                <button class="button-downloads">
+                    <a href="https://www.youtube.com/watch?v=jdUXfsMTv7o" target="_blank">
+                        <span>For Linux</span>
+                    </a>
+                </button>
+            </li>
+        </ul>
+    </section>
+
+    <section class="newsletter-section">
+        <h1>Subscribe to our Newsletter</h1>
+
+        <ul class="email-container">
+            <li>
+                <input id="email-input" type="email" placeholder="example@domain.com">
+            </li>
+
+            <li>
+                <a href="">
+                    <button id="sign-up-button">Sign Up</button>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <h6>©Copyright, Motion 2021 All Rights Reserved</h6>
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

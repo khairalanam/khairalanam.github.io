@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-section {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-header {
+    padding: 20px 40px 120px 20px;
+    height: 100px;
+}
+
+.main-logo {
+    font-family: 'Rock 3D', cursive, sans-serif;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(74, 74, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    float: left;
+    font-style: bold;
+}
+
+.nav-bar-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    font-size: 20px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.nav-bar li {
+    display: inline;
+    padding: 40px 5px 5px 5px;
+}
+
+#sign-up-nav-tag {
+    background-color: white;
+    border: 2px solid rgb(42, 42, 156);
+    color: rgb(42, 42, 156);
+    font-style: bold;
+}
+
+#sign-up-nav-tag:hover {
+    background-color: rgb(42, 42, 156);
+    color: white;
+}
+
+.nav-bar a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 15px;
+    background-color: rgb(42, 42, 156);
+    width: 20%;
+}
+
+li a:hover {
+    background-color: rgb(22, 22, 109);
+}
+
+#toggle {
+    height: 60px;
+    background-color: white;
+    border: 2px solid rgb(42, 42, 156);
+    color: rgb(42, 42, 156);
+    font-style: bold;
+    position: relative;
+    right: 0px;
+    width: 100%;
+    bottom: 18px;
+}
+
+#toggle:hover {
+    background-color: rgb(42, 42, 156);
+    color: white;
+}
+
+.bg-image-container {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#bg-image {
+    width: 100%;
+}
+
+#hero-title {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    font-family: 'Pushster', cursive, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+#hero-subtitle {
+    position: absolute;
+    top: 310px;
+    right: 100px;
+    text-align: right;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+
+.about-us-section {
+    width: 100%;
+    height: 550px;
+    padding: 40px 200px;
+}
+
+#about-us-heading {
+    text-align: center;
+    font-size: 40px;
+    font-style: bold;
+    padding-bottom: 40px;
+}
+
+.about-us-section .main-logo {
+    float: left;
+    width: 300px;
+    height: 300px;
+    font-size: 180px;
+}
+
+.about-us-section p {
+    float: right;
+    width: 50%;
+    font-size: 22px;
+    position: relative;
+}
+
+button {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 15px;
+    background-color: rgb(42, 42, 156);
+    width: 20%;
+    border: none;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.about-us-section .button {
+    float: right;
+    position: absolute;
+    top: 1120px;
+    left: 670px;
+}
+
+button:hover {
+    background-color: rgb(22, 22, 109);
+    cursor: pointer;
+}
+
+.download-section {
+    width: 100%;
+    height: 240px;
+    background-color: rgb(22, 22, 109, 0.5);
+    background-image: url("images/hand-man-writing-notebook.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 22, 109, 0.7);
+    z-index: 1;
+}
+
+.download-section h1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-style: bold;
+    padding-top: 40px;
+}
+
+.download-buttons-list {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.download-buttons-list li {
+    position: relative;
+    z-index: 3;
+    padding: 0px 15px;
+    display: inline;
+}
+
+.button-downloads a:link,
+a:visited {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.newsletter-section {
+    width: 100%;
+    height: 240px;
+    background-color: rgba(6, 6, 58, 0.5);
+    background: -webkit-linear-gradient(rgba(3, 3, 41, 0.8), rgba(2, 2, 37, 0.8));
+    background: linear-gradient(rgb(3, 3, 41), rgb(2, 2, 37));
+    position: relative;
+}
+
+.newsletter-section h1 {
+    text-align: center;
+    padding: 40px 0px;
+    color: white;
+    font-size: 40px;
+}
+
+.email-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.email-container li {
+    position: relative;
+    padding: 0px;
+    display: inline;
+    text-align: center;
+}
+
+#email-input {
+    width: 30%;
+    height: 53px;
+    margin: 0;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.email-container li a {
+    margin: 0;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(1, 1, 17)
+}
+
+footer h6 {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.dark-mode-main-header {
+    background-color: #222;
+    color: #e6e6e6;
+}
